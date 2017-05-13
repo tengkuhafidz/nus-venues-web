@@ -74,12 +74,11 @@ class App extends Component {
         </div>
         </div>
         <div id="venues">
-        <ScrollToTop showUnder={160}>
-          <span><i className="fa fa-arrow-circle-up fa-3x"></i>
-</span>
-        </ScrollToTop>
           <ul className="list-group">{venuesList}</ul>
         </div>
+        <ScrollToTop showUnder={160}>
+          <span><i className="fa fa-arrow-circle-up fa-3x"></i></span>
+        </ScrollToTop>
       </div>
     );
   }
